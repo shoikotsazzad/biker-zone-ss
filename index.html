@@ -15,6 +15,13 @@
     .font-poppins{
         font-family: "Poppins", sans-serif;
     }
+    .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            size: 50%;
+            /* height: 100vh; Full viewport height */
+        }
 </style>
 <script>
     tailwind.config = {
@@ -223,6 +230,74 @@
               </div>
          </div>
        </section>
+
+       <!-- Happy Clients Section -->
+        <section class="my-24 md:container mx-auto">
+            <!-- title -->
+            <div class="text-center"><h3 class="text-5xl font-bold mb-3">Happy Clients Says</h3>
+                <h3 class="mb-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit maiores tenetur ipsam a ut
+                    <br> vitae illo dolores dolore harum culpa! Lorem ipsum dolor sit.</h3>
+            </div>
+
+         <!-- grid -->
+          <div class="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center">
+            <!-- grid-1 -->
+            <div class="bg-gray-300 p-1 md:p-3 lg:p-5 card card-compact bg-base-100 w-96 shadow-xl">
+                  <div class="avatar container">
+                    <div class="w-24 rounded-full">
+                      <img src="images/others/user-1.png" />
+                    </div>
+                  </div>
+                
+                <div class="card-body">
+                  <p>Slate helps you see how 
+                    many more days you need 
+                    to work to reach your financial 
+                    goal for the month and year.</p>
+                  <h2 class=" font-bold text-blue-500">James Watson</h2>
+                  <h2 class="font-bold">Banker</h2>
+                  
+                </div>
+              </div>
+              <!-- grid-2 -->
+            <div class="bg-gray-300 p-1 md:p-3 lg:p-5 card card-compact bg-base-100 w-96 shadow-xl">
+                <div class="avatar container">
+                  <div class="w-24 rounded-full">
+                    <img src="images/others/user-2.png" />
+                  </div>
+                </div>
+              
+              <div class="card-body">
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                <h2 class="font-bold text-blue-500">Regina Miles</h2>
+                <h2 class="font-bold">Doctor</h2>
+                
+              </div>
+            </div>
+            <!-- grid-3 -->
+            <div class="bg-gray-300 p-1 md:p-3 lg:p-5 card card-compact bg-base-100 w-96 shadow-xl">
+                <div class="avatar container">
+                  <div class="w-24 rounded-full">
+                    <img src="images/others/user-3.png" />
+                  </div>
+                </div>
+              
+              <div class="card-body">
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                <h2 class="font-bold text-blue-500">Twin Swift</h2>
+                <h2 class="font-bold">Engineer</h2>
+                
+              </div>
+            </div>
+          </div>
+
+        </section>
 
       <!-- footer section -->
        <footer></footer>
